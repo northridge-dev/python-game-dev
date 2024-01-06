@@ -8,9 +8,9 @@ For this problem set, you'll use [Scratch](https://scratch.mit.edu). To save and
 
 Show me your solutions to:
 
-- [`Hello <name>`](#hello-name)
-- [`Reated Flips`](#repeated-flips)
-- [`Challenge!`](#challenge!)
+- `Hello <name>`
+- `Reated Flips`
+- `Challenge!`
 
 ## What To Build
 
