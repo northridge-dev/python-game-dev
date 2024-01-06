@@ -2,31 +2,33 @@
 
 ## Setup
 
-For this problem set, you'll use [Scratch](https://scratch.mit.edu). To save and share your work, be sure to create an account if you don't already have one. (You can save your work locally on the computer, but I can't promise it'll be there the next time you look.)
+For this problem set, you'll use [Scratch](https://scratch.mit.edu). To save and share your work, create an account if you don't already have one. (You can save your work locally on the computer, but I can't promise it'll be there the next time you look.)
 
 ## How to submit
 
 Show me your solutions to:
 
-- `Hello <name>`
-- `Reated Flips`
-- `Challenge!`
+- [`Hello <name>`](#hello-name)
+- [`Reated Flips`](#repeated-flips)
+- [`Challenge!`](#challenge!)
 
 ## What To Build
 
-Keep a blank canvas and use the default cat sprite (we'll call him Scratch Cat). You'll have a chance to show off your creativity in the first project.
+Let's not worry about the looks of the project for now. Leave the canvas blank and use the default cat sprite (we'll call him Scratch Cat). You'll have a chance to show off your creativity in the first project.
+
+**Start by dragging the "when green flag clicked" block from the "Events" section to the code area. This block will run the code inside it when the green flag is clicked.**
 
 ### Hello World
 
-Make Scratch Cat say "Hello World!" in a speech bubble when the green flag is clicked.
+Make Scratch Cat say "Hello World!" (in a speech bubble) when the green flag is clicked.
 
 ### Hello <name>
 
-Make Scratch Cat ask the user for his name when the green flag is clicked. When the user enters his name, Scratch Cat should say hello to him. **Make sure that Scratch Cat uses the name input by the user.**
+Make Scratch Cat ask the user for his name when the green flag is clicked. When the user enters his name, Scratch Cat should say hello to him. **Make sure that Scratch Cat uses the name supplied by the user.** For example, if the user says his name is John, Scratch Cat should say "Hello John!". If the user says his name is Dansby Swanson, Scratch Cat should say "Hello Dansby Swanson!".
 
 ### Tickle
 
-Make Scratch Cat say "That tickles!" in a speech bubble if you touch him with the mouse pointer.
+Make Scratch Cat say "That tickles!" (in a speech bubble) if you touch him with the mouse pointer.
 
 ### Flip
 
@@ -38,11 +40,11 @@ If you're stuck, think about how animation works. Maybe Scratch Cat needs to rot
 
 Make Scratch Cat flip 3 (or 4 or 5) times.
 
-Bonus: Ask the user for a number between 1 and 5 and have Scratch flip that many times.
-
-Double Bonus: Make Scratch Cat count his flips. For example, after his second flip, make him say in a speech bubble "2" and after his third flip, make him say "3".
-
 Look again: Did you need to repeat the same code blocks multiple times to get Scratch Cat to do multiple flips? Experiment with the blocks in the "Control" section to find a way to repeat an action without repeating code.
+
+Bonus: ask the user for a number between 1 and 5 and have Scratch flip that many times.
+
+Double Bonus: make Scratch Cat count his flips. For example, after his second flip, make him say (in a speech bubble) "2" and after his third flip, make him say "3".
 
 ### Challenge!
 
