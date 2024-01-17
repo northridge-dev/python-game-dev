@@ -31,6 +31,7 @@ print(
 )
 
 # Addition, subtraction, and multiplication are simple
+# (More on division in just a moment . . .)
 print("5 + 6 = ", 5 + 6)
 print("5.0 + 6 = ", 5.0 + 6)
 print("5 - 6 = ", 5 - 6)
@@ -38,6 +39,20 @@ print("5.0 - 6 = ", 5.0 - 6)
 print("5 * 6 = ", 5 * 6)
 print("5.0 * 6 = ", 5.0 * 6)
 
+# You can compare numers. The result is a Boolean (True or False)
+print("5 > 6 ? ", 5 > 6)
+# You can compare floats and integers
+print("6.0 == 6 ? ", 6.0 == 6)
+print("6.001 > 6 ? ", 6.001 > 6)
+print("6.001 <= 6 ? ", 6.001 <= 6)
+# (Sidenote: you can even compare strings.)
+# (What do you suppose makes one string less than or greater than another?)
+print("'a' < 'b' ? ", "a" < "b")
+# (What would you guess will happen if we try to compare a number to a string?)
+# print("'a' < 6 ? ", "a" < 6)
+
+# Here's an example of exponentiation within a comparison
+print("2^3 == 2 * 2 * 2 ? ", 2**3 == 2 * 2 * 2)
 
 # Division is a little trickier (and Python 2 and Python 3 handle it differently)
 print("6 / 5 = ", 6 / 5)  # not surprising that the answer is a floating point number
@@ -55,6 +70,7 @@ print("6 % 5 = ", 6 % 5)
 print("10 % 5 = ", 10 % 5)
 
 # Getting the remainder can be useful for checking if a number is even or odd
+# (And here's a sneek peak at conditional statements, too.)
 if 6 % 2 == 0:
     print("6 is even")
 else:
