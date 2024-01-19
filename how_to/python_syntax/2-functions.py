@@ -146,10 +146,21 @@ outer_function()
 
 # (Yes, you can define a function *within* another function)
 
+
 """
 A bit more about functions
 """
 
+# So far, we've called functions using *positional* arguments -- the order of the arguments matters.
+# But you can also call a function using *keyword* arguments -- the order doesn't matter because we
+# specify which argument is which.
+def greet(first, last):
+    return f"Hello, {first} {last}!" # f-strings are a convenient way to insert variables into a string
+
+# These three function calls will have the same return value:
+greet("Nico", "Hoerner")
+greet(first="Nico", last="Hoerner")
+greet(last="Hoerner", first="Nico")
 
 # We saw earlier that a function can take any number of arguments.
 # Fun fact: a function can even take an indefinite number of arguments.
