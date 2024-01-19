@@ -9,7 +9,7 @@ These are all "complex" data types, meaning they can store multiple
 "simple" or "complex" data types.
 """
 
-# First: lists
+""" First: lists """
 # A list is just an ordered collection of data.
 # Enclose a list in square brackets, with each item separated by a comma.
 shopping_list = ["bread", "milk", "eggs", "cheese", "butter"]
@@ -30,10 +30,6 @@ integer_list[2]  # 5
 list_of_lists[1]  # ['a', 'b', 'c']
 list_of_lists[2][0]  # True
 
-# We can also use negative indices to access items from the end of a list.
-shopping_list[-1]  # 'butter'
-float_list[-3]  # 3.14
-
 # What do you suppose will happen if we try to access an index that doesn't
 # exist?
 # shopping_list[5]  #! IndexError: list index out of range
@@ -44,3 +40,12 @@ float_list[-3]  # 3.14
 len(shopping_list)  # 5
 len(integer_list)  # 4
 len(list_of_lists)  # 3
+
+# You _could_ combine len() with an index to get the last item in a list...
+shopping_list[len(shopping_list) - 1]  # 'butter'
+# But there's a btter way. 
+# We can use negative indices to access items from the end of a list.
+shopping_list[-1]  # 'butter'
+float_list[-3]  # 3.14
+
+
