@@ -1,17 +1,23 @@
-from area import (
-    area_square, 
-    area_rectangle, 
-    area_triangle, 
-    area_circle, 
-    bonus_area_rectangle
+from c01_area import (
+    area_square,
+    area_rectangle,
+    area_triangle,
+    area_circle,
+    bonus_area_rectangle,
 )
+
 
 def test(fn, args, expected):
     result = fn(*args)
     if result == expected:
-        print(f"✅ Function {fn.__name__} called with arg(s) ({', '.join(map(str, args))}) returned {result}")
+        print(
+            f"✅ Function {fn.__name__} called with arg(s) ({', '.join(map(str, args))}) returned {result}"
+        )
     else:
-        print(f"❌ Function {fn.__name__} called with arg(s) ({', '.join(map(str, args))}) returned {result}, expected {expected}")
+        print(
+            f"❌ Function {fn.__name__} called with arg(s) ({', '.join(map(str, args))}) returned {result}, expected {expected}"
+        )
+
 
 test(area_square, [5], 25)
 test(area_rectangle, [5, 3], 15)

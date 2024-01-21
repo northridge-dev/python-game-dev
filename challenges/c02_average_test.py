@@ -1,4 +1,5 @@
-from average import mean, median, mode
+from c02_average import mean, median, mode
+
 
 def test(fn, list, expected):
     result = fn(list)
@@ -6,6 +7,7 @@ def test(fn, list, expected):
         print(f"✅ The {fn.__name__} of {list} is {result}")
     else:
         print(f"❌ The {fn.__name__} of {list} isn't {result}, expected {expected}")
+
 
 test(mean, [1, 2, 3, 4, 5], 3)
 test(mean, [1, 2, 3, 4, 5, 6], 3.5)
