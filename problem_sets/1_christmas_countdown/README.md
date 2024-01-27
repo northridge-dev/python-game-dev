@@ -27,8 +27,7 @@ and I'll ask you some questions about your code.
 
 ## Bonus
 
-1. Account for leap years. (To do so, you'll also need to ask the user for the current
-   year.)
+1. Account for leap years.
 
 2. Write a second version of your program that makes use of Python's `datetime` module.
 
