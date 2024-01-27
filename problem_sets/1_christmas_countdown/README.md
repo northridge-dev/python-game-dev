@@ -1,7 +1,12 @@
 # Christmas Countdown
 
-Write a program that prompts the user for a date (day and month)
+Write a program that prompts the user for a date (day, month and year)
 and displays the number of days until Christmas.
+
+## How to submit
+
+Show me your program. We'll run it a few times, execute the tests,
+and I'll ask you some questions about your code.
 
 ## Clarifications
 
@@ -18,14 +23,18 @@ and displays the number of days until Christmas.
 
 ## Constraints
 
-- Do NOT use the `datetime` module (at least not until you get to Bonus #3).
+- Do NOT use the `datetime` module (at least not until you get to Bonus #2).
 
 ## Bonus
 
-1. Use the current date as a default value so a user can get the number of days from
-   now until Christmas without typing out the date, but could still provide a different
-   date if desired.
-2. Account for leap years. (To do so, you'll also need to ask the user for the current
+1. Account for leap years. (To do so, you'll also need to ask the user for the current
    year.)
-3. Write a second version of your program that makes use of Python's `datetime` module.
-4. Expand your program to handle other holidays.
+
+2. Write a second version of your program that makes use of Python's `datetime` module.
+
+   - Now that you have access to the `datetime` module, use the current date
+     as a default input value so a user can get the number of days from now
+     until Christmas without inputting the date, but could still provide a
+     different date if desired.
+
+3. Expand your program to handle other holidays.
