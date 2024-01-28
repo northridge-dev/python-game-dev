@@ -5,17 +5,15 @@ Here's where you'll write your code.
   - You may also need to modify `christmas_countdown`, but be careful!
 
 Run your code from the terminal:
-  - make sure you're in the right directory (1_christmas_countdown)
+  - make sure you're in the right directory (christmas_countdown)
     - if you're not sure how to get to the right directory, ask!
-  - make sure you're at the command line prompt, not in the Python shell
+  - make sure you're at the command line prompt, not in the Python shell (not >>>)
   - type the following command: python christmas_countdown.py
 
 To run the tests:
-  - make sure you're in the right directory (1_christmas_countdown)
-  - make sure you're at the command line prompt, not in the Python shell
+  - make sure you're in the right directory (christmas_countdown)
+  - make sure you're at the command line prompt, not in the Python shell (not >>>)
   - type the following command: pytest
-  - NOTE: follow the instructions in the `test_christmas_countdown` file 
-          after completing the first bonus challenge
 """
 
 
