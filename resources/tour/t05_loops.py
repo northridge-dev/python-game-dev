@@ -3,6 +3,8 @@ Python loops: for, while
 """
 
 # Python has two types of loops: for and while.
+
+""" for loops """
 # A for loop lets you run code a certain number of times or to iterate over a sequence.
 
 # Let's count with a for loop:
@@ -65,10 +67,105 @@ print(
 
 
 # You can also loop over the keys in a dictionary
+cubs = {
+    "ss": "Dansby Swanson",
+    "2b": "Nico Hoerner",
+    "1b": "Patrick Wisdom",
+    "of": "Seiya Suzuki",
+    "sp": "Shota Imanaga",
+}
 
+for position in cubs:
+    print(f"Starting at {position}: {cubs[position]}")
 
 # Or you can loop over a dictionary's values if you use the dictionary's `values` method
-
+for player in cubs.values():
+    print(f"Hey hey whaddya say, {player} gonna hit a homer today.")
 
 # And if you use the `items' method and the trick we learned about assignming multiple variables at once,
 # you can assign one variable to the key and another variable to the value stored at that key.
+for position, player in cubs.items():
+    print(f"Starting at {position}: {player}")
+
+
+""" while loops """
+# A while loop lets you run code until a certain condition is met.
+# Let's count with a while loop:
+counting_num = 1
+
+while counting_num <= 10:
+    print(counting_num)
+    counting_num += 1
+
+# What would happen if you forgot to increment the counting_num variable? Maybe DON'T try it :)
+
+# Here's the structure of a while loop:
+#  - The 'while' keyword#
+#  - A condition to check
+#  - (indented) code block to repeat
+
+# While loops are a more awkward to work with if you want to iterate through a list or dictionary.
+# For example, you need an extra variable to keep track of where you are in the list. You also need
+# to remember to increment the index pointer and it'd be easier to overshoot and try to access an
+# index that doesn't exist.
+some_list = ["the", "quick", "brown", "fox"]
+index = 0
+
+while index < len(some_list):
+    print(some_list[index])
+    index += 1
+
+# So what are while loops good for, then?
+# Think about the `forever` blocks we used in Scratch. Sometimes we want to keep re-running
+# code until the program ends or some event occurs. Here's what that might look like in Python:
+
+# DANGEROUS!
+# while True:
+#   <some code>
+
+# If you're not careful, such a INFINITE LOOP will block or even crash your program.
+
+# But you can break out of a loop
+count = 10
+
+while count >= 0:
+    if count == 3:
+        break
+    print(count)
+    count -= 1
+
+# What do you expect to happen?
+# What if we replaced `break` with `continue`?
+
+count = 10
+while count >= 0:
+    if count == 3:
+        continue
+    print(count)
+    count -= 1
+
+# Kind of a waste, right? Here's a more realistic example:
+guess = None
+
+while True:
+    candidate_guess = input("Guess a number between 1 and 10: ")
+    try:
+        candidate_guess = int(candidate_guess)
+    except ValueError:
+        print(f"{candidate_guess} is not a number. Try again.")
+        continue
+
+    if candidate_guess < 1 or candidate_guess > 10:
+        print(f"{candidate_guess} is not between 1 and 10. Try again.")
+        continue
+
+    guess = candidate_guess
+
+# Enough for now. If you'd like to experiment a little, try to use a loop within a loop.
+# For example, here's how I might represent a tic-tac-toe board:
+# board = [
+#    ["X", "O", "X"],
+#    ["O", "X", "O"],
+#    ["X", "O", "X"],
+# ]
+# Maybe I'd need to use nested loops to figure out if "X" or "O" won the game.
