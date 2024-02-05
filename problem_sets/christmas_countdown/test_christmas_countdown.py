@@ -1,5 +1,5 @@
 import pytest
-from christmas_countdown_impl import get_days_until_christmas
+from christmas_countdown import get_days_until_christmas
 
 """
 These are the tests that will be run to check your work. You can
