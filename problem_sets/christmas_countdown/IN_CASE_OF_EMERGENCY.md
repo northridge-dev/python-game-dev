@@ -55,7 +55,7 @@ What about the subtraction shortcut? It's a little more complicated, but with a 
 it still works.
 
 days in November - 10 = days remaining in November
-days reamining in November + 25 = days until Christmas
+days remaining in November + 25 = days until Christmas
 
 Okay, what if we started on June 10th? That'd be a lot of days to count, but we can
 make good use of our shortcut:
@@ -113,9 +113,47 @@ found it now, we probably would have found it when we started testing our functi
 
 ### Fill in the code
 
-### Try it out. Test it!
+Now that you have a plan, you can start writing the code. Think about the tools you have in
+your Python toolbox and how you can use them to implement your plan.
 
-### Debug
+Can't find the tool you need? There's a good chance that your pseudocode can help you formulate a
+precise question. The more precise your question, the more likely a classmate, a Google search, or
+Bard / ChatGPT will yield a helpful answer.
+
+### Try it out and debug.
+
+You don't have to wait until your function can handle all possible inputs before giving it a
+whirl. Follow the instructions in the README file to run your program.
+
+One of two things will happen:
+
+1. You'll get an error message. Don't be discouraged. Take time to read and try to understand the error
+   message. It's the Python interpreter's way of helping you. Look at the error type and the line number
+   to try to figure out what went wrong and where. Maybe you have a typo or your syntax is a little off.
+   If you don't know how to fix it, now's the time to look at past examples, look up some documentation,
+   or ask!
+2. You'll be prompted to enter a day, month, and year. Pick values that help you test a case you think
+   your code should be able to handle. Did you get the result you expected? If so, _awesome_! But you're
+   not done. Try a few more cases to be more confident that your code is working the way you expect. What
+   if you didn't get the result you expected? Try stepping through your code line-by-line, looking for
+   where your logic is flawed. Fix it, rinse, and repeat.
+
+### Run tests
+
+You need not wait until you've handled every possible case before running the provided tests. Follow
+the instructions in the README file and the starter code comments to run the tests.
+
+If all the tests pass, you've done it! Your program handles all the required cases.
+
+If one or more tests fail, the message includes:
+
+- the inputs
+- the actual output
+- the expected output
+
+Use that information to figure out where your code is going wrong and how you might fix it.
+
+Be patient! Don't get discouraged! Debugging is often the most time-consuming part of programming.
 
 ### Handle corner cases: days after Christmas
 
@@ -125,3 +163,6 @@ We'll talk about leap years in the "bonus" section, below. Besides leap years, t
 we haven't handled yet are the handful of days between Christmas and New Year's. See for
 yourself. I bet if you input December 26th, your program will tell you that there are `-1` days
 until Christmas. That's not untrue, but it's also not quite what we're looking for.
+
+The problem now is: how can you extend or modify your logic to correctly start counting from or otherwise
+account for the days between Christmas and New Year's?
