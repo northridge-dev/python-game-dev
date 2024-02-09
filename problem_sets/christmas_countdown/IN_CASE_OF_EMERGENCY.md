@@ -66,7 +66,7 @@ Are you noticing a pattern?
 
 ### Generalizing the strategy
 
-We have a what looks like a viable strategy. Now let's figure out how to generalize it.
+We have what looks like a viable strategy. Now let's figure out how to generalize it.
 
 1. Find the number of days remaining in the current month and add it to the count
 2. For each month between the current month and December, add the number of days
@@ -165,4 +165,4 @@ yourself. I bet if you input December 26th, your program will tell you that ther
 until Christmas. That's not untrue, but it's also not quite what we're looking for.
 
 The problem now is: how can you extend or modify your logic to correctly start counting from or otherwise
-account for the days between Christmas and New Year's?
+account for the days between Christmas and New Year's
