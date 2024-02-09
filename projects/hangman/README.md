@@ -39,23 +39,25 @@ Your program should:
 
 ## Plan ahead
 
-Before you write any code, outline the steps your program will take to play the game
-or -- even better -- create a flowchart. You may find it helpful to convert this outline
+Before you write any code, outline the game logic or -- even better --
+create a flowchart. You may find it helpful to convert this outline
 or flowchart into pseudocode.
 
 You'll need to submit this outline or flowchart before you start coding.
 
 Consider the following:
 
-- What state (data) does your program need to keep track of? What data types will you use?
-- What steps get repeated? What control structures will you use to repeat them? How will
-  your program know when to stop repeating?
-- What are the decision points in your program -- steps when your program has choose between
-  different actions it could take? How will it decide which code path to follow?
+- What state (data) does your program need to keep track of? What data
+  types will you use?
+- What steps get repeated? What control structures will you use to
+  repeat them? How will your program know when to stop repeating?
+- What are the decision points in your program -- steps when your
+  program has choose between different actions it could take?
+  How will it decide which code path to follow?
 
 ## Craftsmanship
 
-For this project, let's focus on two good programming practices:
+For this project, let's focus on three good programming practices:
 
 - **Descriptive variable names**. Use variable names that describe the data they hold.
   For example, `secret_word` is a better variable name than `word` and a much better
@@ -63,8 +65,15 @@ For this project, let's focus on two good programming practices:
 - **Comments**. Use precise comments to explain your code when it's helpful, but avoid
   comments where the code explains itself. Function-level comments are generally
   useful and a good place to start.
+- **Define single-purpose functions**. Rather than lumping all your logic into a
+  single function, create smaller functions that have just one job. You might,
+  for example, create a function to display the state of the game, another function
+  to prompt the player for a guess, and another function to check if the guessed letter
+  is in the secret word.
 
 ## Submitting your work
+
+Show me your game. I'll ask you questions about your code.
 
 ## Bonus challenges
 
