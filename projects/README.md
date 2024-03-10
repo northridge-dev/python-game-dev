@@ -7,3 +7,4 @@
 5. [Code Breaker](https://github.com/northridge-dev/python-game-dev/tree/main/projects/code_breaker)
 6. [Hangman](https://github.com/northridge-dev/hangman)
 7. [Tic-Tac-Toe](https://github.com/northridge-dev/python-game-dev/tree/main/projects/tic_tac_toe)
+8. [Pong](https://github.com/northridge-dev/pong)
